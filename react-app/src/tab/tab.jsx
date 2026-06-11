@@ -28,6 +28,7 @@ export default function TabView() {
         {isMessages && <p>У вас 5 новых сообщений</p>}
         {isSettings && <p>Настройки аккаунта</p>}
       </div>
+      hello
     </div>
   );
 }
