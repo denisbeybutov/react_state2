@@ -10,14 +10,19 @@ import SyncedInputs from './input/input'
 import FilterableList from './list/list'
 import MainComp from './MainComp/MainComp'
 import PaymentForm from './PaymentForm/PaymentForm'
+import Appl from './app/app.jsx'
+import ContactManager from './Form/Form.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <ContactManager/>
+    {/* рефактронинг приложения с фильтрацией по возрасту */}
+    {/* <Appl/> */}
     {/* Фрома оплты */}
-    <PaymentForm/>
+    {/* <PaymentForm/> */}
 
     {/* Синхронизация выбора */}
     {/* <MainComp/> */}
